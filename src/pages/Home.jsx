@@ -1,4 +1,5 @@
 import './Home.css'
+import nuvemIcon from "./image/nuvem-icon.png"
 
 export default function Home() {
   return (
@@ -13,7 +14,14 @@ export default function Home() {
           </div>
         </div>
       </div>
-      
+
+      <div className='espect-descrição'>
+        <div>
+          <img src={nuvemIcon} alt="icone-de-nuvem" />
+          <h1>Fermentação Natural</h1>
+          <p> <span id='span-paes'>Pães</span> produzidos diariamente com fermento natural (levain) e longos períodos de maturação.</p>
+        </div>
+      </div>
     </div>
   )
 }

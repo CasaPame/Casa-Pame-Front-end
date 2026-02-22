@@ -23,6 +23,7 @@ header h1 {
   color: #CBBEA9;
   font-family: "Frank Ruhl Libre", serif;
   margin: 0;
+  cursor: pointer;
 }
 
 .link-header{
