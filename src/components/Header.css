@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&display=swap');
+
+header{
+  width: 90%;
+  min-height: 50px;   /* em vez de height */
+  background-color: #094532;
+  margin: 0.5rem auto;
+  border-radius: 30px;
+  position: absolute;
+  top: 10px;            /* ou 0 */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  background: rgba(9, 69, 50, 0.85); /* ou transparente */
+  backdrop-filter: blur(6px);
+
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-size: clamp(0.1rem, 2.5vw, 1.4rem);
+  color: #CBBEA9;
+  font-family: "Frank Ruhl Libre", serif;
+  margin: 0;
+}
+
+.link-header{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: clamp(0.1rem, 2.5vw, 1.4rem);                /* cria espaço interno */
+  gap: 1rem;                      /* gap em px, não em % */
+}
+
+.link-logo{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.link-logo img{
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  flex: 0 0 auto;
+  width: 20%;
+}
+
+.link-filter{
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  flex: 1; justify-content: center; min-width: 0;
+}
+
+.link-registro{
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  flex: 0 0 auto;
+}
+
+.link-registro h1{
+  font-size: clamp(0.3rem, 1.8vw, 1.1rem);
+  color: #094532;
+  background-color: #CBBEA9;
+  border-radius: 30px;
+  padding: 8px 12px;
+  line-height: 1; /* evita ficar alto demais */
+  margin: 0;
+}
+
+@media screen and (min-width: 344px){
+  .link-registro{
+    position: relative;
+    left: 3px;
+  }
+}
+

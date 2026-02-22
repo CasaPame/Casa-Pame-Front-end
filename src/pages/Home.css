@@ -1,0 +1,28 @@
+.home{
+    min-width: 100%;
+}
+
+.hero{
+    
+    min-height: 70vh;                 /* “um pouco do main” */
+    background-image: url("./image/backgroud.png"); /* se estiver no public */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    padding-top: 90px; /* espaço pro header */
+    display: flex;
+    align-items: center;
+}
+
+/* overlay para o texto ficar legível */
+.hero::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+}
+
+.hero > *{
+  position: relative; /* fica acima do overlay */
+}
