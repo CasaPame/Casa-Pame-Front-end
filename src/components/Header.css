@@ -52,7 +52,7 @@ header h1 {
 .link-filter{
   display: flex;
   flex-direction: row;
-  gap: 8px;
+  gap: 20px;
   flex: 1; justify-content: center; min-width: 0;
 }
 

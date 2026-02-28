@@ -4,7 +4,7 @@
 
 .hero{
     position: relative;
-    min-height: 70vh;                 /* “um pouco do main” */
+    min-height: 100vh;                 /* “um pouco do main” */
     background-image: url("./image/backgroud.png"); /* se estiver no public */
     background-size: cover;
     background-position: center;
@@ -15,7 +15,7 @@
     justify-content: flex-start;
     align-items: flex-end; 
     
-    padding-bottom: clamp(24px, 8vh, 120px);
+    padding-bottom: clamp(24px, 20vh, 150px);
     padding-left: clamp(16px, 6vw, 96px);
 }
 
@@ -36,16 +36,18 @@
 .Container h1{
   display: flex;
   font-family: "Frank Ruhl Libre", serif;
+  font-weight: normal;
   color: #CBBEA9;
-  font-size: clamp(1.1rem, 3.5vw, 2.7rem);
-  width: clamp(166px, 33vw, 1200px);
+  font-size: clamp(2.1rem, 5.5vw, 4.7rem);
+  width: clamp(300px, 36vw, 1200px);
+  margin-bottom: 10px;
 }
 
 .Container p{
   font-family: "Blinker", sans-serif;
   font-size: clamp(0.8rem, 1.7vw, 2.7rem);
   width: clamp(240px, 49vw, 1200px);
-  color: #CBBEA9;
+  color: #fff;
 }
 
 .Container div{
@@ -55,11 +57,11 @@
 
 .Container button{
   font-family: "Roboto", sans-serif;
-  font-size: clamp(0.3rem, 1.8vw, 1.1rem);
+  font-size: clamp(0.3rem, 1.8vw, 1.5rem);
   color: #094532;
   background-color: #CBBEA9;
-  border-radius: 30px;
-  padding: 8px 12px;
+  border-radius: 40px;
+  padding: 21px 35px;
   border: none;
   cursor: pointer;
 }
