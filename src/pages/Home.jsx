@@ -35,16 +35,180 @@ export default function Home() {
 
         </div>
 
-        <div className='cards'>
-          <div className='card1'>
-            <h1>ola</h1>
-          </div>
-
-          <div>ola1</div>
-        </div>
-
       </div>
 
+      <div className='cards'>
+
+          <div className='card-item'>
+            <div className='card-header'>
+              <h1>.</h1>
+            </div>
+
+            <div className='card-title'>
+              <h1>Folhado do chef</h1>
+              <span>R$ 52</span>
+            </div>
+
+            <p>Croissant na chapa com manteiga, redução
+              de aceto balsâmico, rúcula, tomate, presunto
+              cru, queijo brie, amêndoas laminadas.</p>
+
+            <button className='BTN-Card'>Adicionar ao pedido</button>
+          </div>
+
+          <div className='card-item'>
+            <div className='card-header'>
+              <h1>.</h1>
+            </div>
+
+            <div className='card-title'>
+              <h1>Folhado do chef</h1>
+              <span>R$ 52</span>
+            </div>
+
+            <p>Croissant na chapa com manteiga, redução
+              de aceto balsâmico, rúcula, tomate, presunto
+              cru, queijo brie, amêndoas laminadas.</p>
+
+            <button className='BTN-Card'>Adicionar ao pedido</button>
+          </div>
+          
+          <div className='card-item'>
+            <div className='card-header'>
+              <h1>.</h1>
+            </div>
+
+            <div className='card-title'>
+              <h1>Folhado do chef</h1>
+              <span>R$ 52</span>
+            </div>
+
+            <p>Croissant na chapa com manteiga, redução
+              de aceto balsâmico, rúcula, tomate, presunto
+              cru, queijo brie, amêndoas laminadas.</p>
+
+            <button className='BTN-Card'>Adicionar ao pedido</button>
+          </div>
+
+          <div className='card-item'>
+            <div className='card-header'>
+              <h1>.</h1>
+            </div>
+
+            <div className='card-title'>
+              <h1>Folhado do chef</h1>
+              <span>R$ 52</span>
+            </div>
+
+            <p>Croissant na chapa com manteiga, redução
+              de aceto balsâmico, rúcula, tomate, presunto
+              cru, queijo brie, amêndoas laminadas.</p>
+
+            <button className='BTN-Card'>Adicionar ao pedido</button>
+          </div>
+
+          <div className='card-item'>
+            <div className='card-header'>
+              <h1>.</h1>
+            </div>
+
+            <div className='card-title'>
+              <h1>Folhado do chef</h1>
+              <span>R$ 52</span>
+            </div>
+
+            <p>Croissant na chapa com manteiga, redução
+              de aceto balsâmico, rúcula, tomate, presunto
+              cru, queijo brie, amêndoas laminadas.</p>
+
+            <button className='BTN-Card'>Adicionar ao pedido</button>
+          </div>
+
+          <div className='card-item'>
+            <div className='card-header'>
+              <h1>.</h1>
+            </div>
+
+            <div className='card-title'>
+              <h1>Folhado do chef</h1>
+              <span>R$ 52</span>
+            </div>
+
+            <p>Croissant na chapa com manteiga, redução
+              de aceto balsâmico, rúcula, tomate, presunto
+              cru, queijo brie, amêndoas laminadas.</p>
+
+            <button className='BTN-Card'>Adicionar ao pedido</button>
+          </div>
+          <div className='card-item'>
+            <div className='card-header'>
+              <h1>.</h1>
+            </div>
+
+            <div className='card-title'>
+              <h1>Folhado do chef</h1>
+              <span>R$ 52</span>
+            </div>
+
+            <p>Croissant na chapa com manteiga, redução
+              de aceto balsâmico, rúcula, tomate, presunto
+              cru, queijo brie, amêndoas laminadas.</p>
+
+            <button className='BTN-Card'>Adicionar ao pedido</button>
+          </div>
+
+          <div className='card-item'>
+            <div className='card-header'>
+              <h1>.</h1>
+            </div>
+
+            <div className='card-title'>
+              <h1>Folhado do chef</h1>
+              <span>R$ 52</span>
+            </div>
+
+            <p>Croissant na chapa com manteiga, redução
+              de aceto balsâmico, rúcula, tomate, presunto
+              cru, queijo brie, amêndoas laminadas.</p>
+
+            <button className='BTN-Card'>Adicionar ao pedido</button>
+          </div>
+
+          <div className='card-item'>
+            <div className='card-header'>
+              <h1>.</h1>
+            </div>
+
+            <div className='card-title'>
+              <h1>Folhado do chef</h1>
+              <span>R$ 52</span>
+            </div>
+
+            <p>Croissant na chapa com manteiga, redução
+              de aceto balsâmico, rúcula, tomate, presunto
+              cru, queijo brie, amêndoas laminadas.</p>
+
+            <button className='BTN-Card'>Adicionar ao pedido</button>
+          </div>
+
+          <div className='card-item'>
+            <div className='card-header'>
+              <h1>.</h1>
+            </div>
+
+            <div className='card-title'>
+              <h1>Folhado do chef</h1>
+              <span>R$ 52</span>
+            </div>
+
+            <p>Croissant na chapa com manteiga, redução
+              de aceto balsâmico, rúcula, tomate, presunto
+              cru, queijo brie, amêndoas laminadas.</p>
+
+            <button className='BTN-Card'>Adicionar ao pedido</button>
+          </div>
+
+      </div>
       
     </div>
   )
