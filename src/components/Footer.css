@@ -1,3 +1,125 @@
-footer h1{
-    color: aqua;
+footer{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    padding-left: 0px;
+    margin-top: 20px;
+    background-color: #094532;
+}
+
+.container-content{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.footer-Logo{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    width: clamp(155px, 15vw, 1200px);
+}
+
+.footer-row img{
+    width: clamp(2.1rem, 2.5vw, 3.0vw);
+    object-fit: contain;
+    flex: 0 0 auto;
+}
+
+.footer-row h1{
+    font-family: "Frank Ruhl Libre", serif;
+    color: #CBBEA9;
+    font-weight: 400;
+    font-size: clamp(1.5rem, 1.9vw, 2.7rem);
+    margin: 0;
+}
+
+.footer-Logo h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #CBBEA9;
+    margin: 0;
+    width: clamp(183px, 18vw, 1200px);
+    font-size: clamp(0.8rem, 0.9vw, 2.7rem);
+    margin-top: 20px;
+}
+
+.footer-central{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    color: #fff;
+}
+
+.footer-central h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+    font-size: clamp(0.8rem, 1.9vw, 2.7rem);
+    margin: 0;
+}
+
+.horarios{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+}
+
+.horarios div p{
+    width: clamp(69px, 5vw, 1200px);
+    font-size: clamp(0.8rem, 0.9vw, 2.7rem);
+}
+
+.footer-loc h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+    font-size: clamp(0.8rem, 1.9vw, 2.7rem);
+    color: #fff;
+    margin: 0;
+}
+
+.footer-loc h2{
+    color: #fff;
+    width: clamp(126px, 16vw, 1200px);
+    font-size: clamp(0.6rem, 1.1vw, 2.7rem);
+    font-weight: 500;
+}
+
+@media screen and (max-width: 560px){
+
+    footer{
+        padding-right: 0;
+    }
+
+    .container-content{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer-Logo h2{
+        display: none;
+    }
+
+    .footer-loc{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-loc h2{
+        text-align: center;
+    }
 }

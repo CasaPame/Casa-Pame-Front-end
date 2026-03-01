@@ -3,10 +3,10 @@ import Footer from './Footer.jsx'
 
 export default function Layout({ children }) {
   return (
-    <div>
+    <div className='layout'>
       <Header />
       <main className="container py-4">{children}</main>
-      <Footer />   {/* ← aqui */}
+      <Footer />  
     </div>
   )
 }
