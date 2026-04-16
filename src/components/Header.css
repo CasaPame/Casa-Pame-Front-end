@@ -19,7 +19,7 @@ header{
 }
 
 header h1 {
-  font-size: clamp(0.1rem, 2.5vw, 1.4rem);
+  font-size: clamp(0.1rem, 2.3vw, 1.2rem);
   color: #CBBEA9;
   font-family: "Frank Ruhl Libre", serif;
   margin: 0;
@@ -64,7 +64,7 @@ header h1 {
 }
 
 .link-registro h1{
-  font-size: clamp(0.3rem, 1.8vw, 1.1rem);
+  font-size: clamp(0.3rem, 1.6vw, 0.9rem);
   color: #094532;
   background-color: #CBBEA9;
   border-radius: 30px;

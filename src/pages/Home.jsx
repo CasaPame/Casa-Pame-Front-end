@@ -21,7 +21,7 @@ export default function Home() {
         <div>
           <img src={nuvemIcon} alt="icone-de-nuvem" />
           <h1>Fermentação Natural</h1>
-          <p> <span id='span-paes'>Pães</span> produzidos diariamente com fermento natural (levain) e longos períodos de maturação.</p>
+          <p> <span id='span-paes'>Pães</span> produzidos diariamente com fermento natural (levain) <span id='span-paragrafo'>e longos períodos de maturação.</span> </p>
         </div>
       </div>
 
@@ -30,7 +30,7 @@ export default function Home() {
           <h1>Favoritos da Casa</h1>
 
           <p> <span id='span-descrição'>Uma</span> 
-          seleção cuidadosa do que nossos clientes mais <br />
+          seleção cuidadosa do que nossos clientes mais <br/>
           amam em nosso menu diário. </p>
 
         </div>
